@@ -1,0 +1,40 @@
+html {
+    background-color: rgb(32, 42, 52);
+    font-family: 'Noto Sans',sans-serif;
+    color: rgb(212, 212, 212);
+}
+
+h1 {
+    margin-top: 200px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.button {
+    border: none;
+    width: 200px;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px;
+    color: rgb(212, 212, 212);
+    border-radius: 5px;
+}
+
+#chromeStore {
+    background-color: #e31b53;
+}
+
+#github {
+    background-color: rgb(36, 41, 46);
+}
+
+#menu {
+    text-align: center;
+}
