@@ -50,7 +50,7 @@ img {
 }
 
 .imageDescription > p, .imageDescription > h2 {
-    padding-left: 1050px;
+    padding-left: 55%;
     font-size: 20px;
 }
 
@@ -63,5 +63,5 @@ img {
 }
 
 div {
-    margin-bottom: 600px;
+    margin-bottom: 30%;
 }
