@@ -41,12 +41,15 @@ h1, body > h2 {
     text-align: center;
 }
 
-img {
+div > img {
     border: 1px rgb(26, 31, 36) solid;
     width: 50%;
     height: auto;
     float: left;
-    padding-left: 20px;
+}
+
+img {
+    margin-left: 20px;
 }
 
 .imageDescription > p, .imageDescription > h2 {
@@ -69,4 +72,11 @@ div {
     .imageDescription > p, .imageDescription > h2 {
         padding-left: 5%;
     }
+}
+
+footer img {
+    width: 30px;
+    height: auto;
+    float: right;
+    margin-bottom: 5px;
 }
