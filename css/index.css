@@ -66,8 +66,8 @@ div {
         display: flex;
         flex-direction: column;
     }
-    img {
-        width: 100%;
+    div > img {
+        width: 95%;
     }
     .imageDescription > p, .imageDescription > h2 {
         padding-left: 5%;
