@@ -61,6 +61,10 @@ div {
     margin-bottom: 30%;
 }
 
+#div2 {
+    margin-bottom: 43%;
+}
+
 @media (max-width: 1000px) {
     div {
         display: flex;
