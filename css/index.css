@@ -13,7 +13,7 @@ h1, body > h2 {
 }
 
 .button {
-    border: none;
+    border: rgb(212, 212, 212) 1px solid;
     width: 200px;
     height: 50px;
     padding-top: 15px;
