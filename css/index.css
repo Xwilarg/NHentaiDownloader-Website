@@ -21,7 +21,7 @@ h1, body > h2 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 20px;
     margin: 10px;
     color: rgb(212, 212, 212);
     border-radius: 5px;
@@ -35,10 +35,16 @@ h1, body > h2 {
     background-color: rgb(36, 41, 46);
 }
 
+.main {
+    background-color: #e31b53;
+}
+
 #menu {
     margin-top: 100px;
     margin-bottom: 300px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 div > img {
