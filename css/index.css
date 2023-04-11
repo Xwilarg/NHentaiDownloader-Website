@@ -48,28 +48,45 @@ h1, body > h2 {
     justify-content: center;
 }
 
-div > img {
-    border: 1px rgb(26, 31, 36) solid;
-    width: 50%;
-    height: auto;
-    float: left;
-}
-
 img {
     margin-left: 20px;
 }
 
-.imageDescription > p, .imageDescription > h2 {
-    padding-left: 55%;
-    font-size: 20px;
+.imageDescription {
+    display: flex;
+    margin-top: 5em;
 }
 
-div {
-    margin-bottom: 30%;
+.imageDescription > img {
+    width: 45vw;
+    margin-right: 5em;
+    border: 1px rgb(26, 31, 36) solid;
+    height: auto;
+    float: left;
 }
 
-#div2 {
-    margin-bottom: 43%;
+.imageDescription > div {
+    width: 54vw;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.imageDescription:nth-child(even) > img {
+    order: 1;
+}
+
+.imageDescription:nth-child(even) > div {
+    order: 0;
+}
+
+#example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 1000px) {
@@ -77,11 +94,22 @@ div {
         display: flex;
         flex-direction: column;
     }
-    div > img {
-        width: 95%;
+    div > * {
+        width: 95% !important;
+        margin-left: 2.5%;
     }
-    .imageDescription > p, .imageDescription > h2 {
-        padding-left: 5%;
+    #menu {
+        margin-bottom: 200px;
+    }
+    .imageDescription {
+        margin-top: 7.5em;
+    }
+    .imageDescription > img {
+        order: 1;
+    }
+    .imageDescription > div {
+        order: 0;
+        margin-bottom: 2em;
     }
 }
 
