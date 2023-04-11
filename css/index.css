@@ -28,6 +28,10 @@ h1, body > h2 {
     border-radius: 5px;
 }
 
+.button:hover {
+    color: rgb(170, 170, 170);
+}
+
 #chromeStore {
     background-color: #e31b53;
 }
